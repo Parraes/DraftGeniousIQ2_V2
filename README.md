@@ -1,27 +1,30 @@
-# DraftGeniousIQ2
+# DraftGeniousIQ
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.0.
+DraftGeniousIQ es una aplicación de asistencia multiventana manejada por hilos, desarrollada en Python con una interfaz simple construida con PyQt6. La principal meta de esta herramienta es ofrecer recomendaciones fundamentadas en predicciones precisas para mejorar el rendimiento del usuario al jugar al Fantasy de Mundo Deportivo.
 
-## Development server
+## Objetivo
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+El objetivo principal de DraftGeniousIQ es asistir al usuario en la toma de decisiones relacionadas con la alineación de su equipo en la próxima jornada del Fantasy de Mundo Deportivo. Esto incluye sugerencias para el once titular, recomendaciones sobre jugadores para mantener en el banquillo, información sobre jugadores en el mercado, y consejos sobre compras y ventas basadas en proyecciones de valor y rendimiento.
 
-## Code scaffolding
+## Instalación
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Para comenzar, asegúrate de tener Node.js y npm instalados en tu sistema. Luego, sigue los siguientes pasos:
 
-## Build
+1. Abre tu terminal o línea de comandos.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+2. Ejecuta el siguiente comando para instalar las dependencias del proyecto:
 
-## Running unit tests
+    ```bash
+    npm install
+    ```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+3. Una vez que se completen las instalaciones, actualiza las dependencias ejecutando:
 
-## Running end-to-end tests
+    ```bash
+    npm update
+    ```
+4. Ejecuta el siguiente comando para agregar ng-bootstrap a tu proyecto:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+    ```bash
+    ng add @ng-bootstrap/ng-bootstrap
+    ```
