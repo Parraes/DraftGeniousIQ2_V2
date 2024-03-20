@@ -1,0 +1,231 @@
+.grid_transpasos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, 1fr); 
+    grid-auto-flow: column;
+    padding: 5px;
+    background-color: black;
+    color: aliceblue;
+  }
+  
+  #transp1{
+    grid-column: 1;
+    grid-row: 1;
+    margin-top:px
+  }
+  #transp2{
+    grid-column: 1;
+    grid-row: 2;
+    margin-top:px
+  }
+  #transp3{
+    grid-column: 2;
+    grid-row: 1;
+    margin-top:5px
+  }
+  #transp4{
+    grid-column: 2;
+    grid-row: 2;
+    margin-top:5px    
+  }
+  
+  .hero-profile_tags {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: black;
+  }
+  
+  .hero-profile_tag {
+    display: inline-block;
+    padding: 2px 5px;
+    border-radius: 2px;
+    background: rgb(255, 255, 255);
+    margin: 0 2px 0 0;
+    font-size: 12px;
+    line-height: 15px;
+  }
+  
+  .transImg{
+    height: 110px;
+    margin-bottom: 8px;
+  }
+
+  .player_img{
+    height: 180px;
+    margin-left: 19px;
+  }
+  
+  .escudo{
+    margin-top: 40px;
+
+  }
+
+  .stats{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    //margin-left: 30px;
+    //margin-bottom: 25px;
+    gap: 2px;
+    font-size: 13px;
+    
+    p {
+        border: 1px solid white;
+        font-weight: bold;
+        padding: 3px;
+        margin: 1px;
+    }
+  }
+  
+  .playerTrans{
+    margin-left: 20px;
+  } 
+  
+  .team{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .player_comb{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .insignias{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin-left: 15px;
+    gap: 11px;
+    margin-right: -50px;
+  }
+  
+  .points {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 20px;
+    
+    p {
+    border: 1px solid white;
+    padding: 6px;
+    font-size: 17px;
+   }
+  }
+  
+  .transferido{
+    height: 100px;
+    margin-bottom: 50px;
+    margin-left: 21px;
+  }
+  
+  .team_logo{
+    height: 36px;
+    width: 36px;
+  }
+  
+  .position_logo{
+    height: 31px;
+    width: 31px;
+  }
+  
+  h3{
+    text-align: center; 
+    margin-left: 10px;
+  }
+
+  .equipo_name{
+    text-align: center; 
+    Margin-left: 60px
+  }
+
+  .transpaso{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+  }
+  
+  .player_box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-items: left;
+  }   
+  
+  .players_box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  @media (max-width: 1078px) {
+    .grid_transpasos {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        grid-auto-flow: row;
+    }
+
+    #transp1 {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    #transp2 {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    #transp3 {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    #transp4 {
+        grid-column: 1;
+        grid-row: 4;
+    }
+    
+    .player_box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 160px;
+    }
+  
+    .inisgnias{
+      display: flex;
+      flex-direction: row;
+      justify-items: center;
+      align-items: center;
+      gap: 15px;
+    }
+  
+    h3{
+      margin-left: 15px;
+    }
+  
+    img{
+      justify-content: start;
+      align-items: start;
+    }
+  
+    .hero-profile_infoL{
+      margin-left: -40px;
+    }  
+  
+    .players_box{
+      gap:75px;
+    }
+  
+    .players_box{
+      margin-bottom: 30px;
+    }
+  }
