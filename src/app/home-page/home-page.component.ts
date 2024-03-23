@@ -3,11 +3,12 @@ import { MenuHomePageComponent } from '../menu-home-page/menu-home-page.componen
 import { CarruselJugadoresRecomendadosComponent } from '../carrusel-jugadores-recomendados/carrusel-jugadores-recomendados.component';
 import { InfiniteEventScrollComponent } from '../infinite-event-scroll/infinite-event-scroll.component';
 import { TransferredPlayersComponent } from '../transferred-players/transferred-players.component';
+import { SoccerFieldComponent } from '../soccer-field/soccer-field.component';
 
 @Component({
   selector: 'home-page',
   standalone: true,
-  imports: [MenuHomePageComponent,CarruselJugadoresRecomendadosComponent,InfiniteEventScrollComponent, TransferredPlayersComponent],
+  imports: [MenuHomePageComponent,CarruselJugadoresRecomendadosComponent,InfiniteEventScrollComponent, TransferredPlayersComponent, SoccerFieldComponent],
   templateUrl: './home-page.component.html',
   styleUrl: './home-page.component.scss'
 })

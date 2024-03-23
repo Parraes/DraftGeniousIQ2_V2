@@ -1,0 +1,40 @@
+<div class="campo">
+    <div class="plantilla">
+        <div class="delantera">
+            <div *ngFor="let jugador of delanteros" class="jugador">
+                <div class="insignias">
+                    <img [src]="jugador.position" class="position_logo" style="margin-top: 10px;">
+                    <img [src]="jugador.team" class="team_logo" alt="">
+                </div>
+                <img [src]="jugador.image" class="player_img" />
+            </div>
+        </div>
+        <div class="medio">
+            <div *ngFor="let jugador of medios" class="jugador">
+                <div class="insignias">
+                    <img [src]="jugador.position" class="position_logo" style="margin-top: 10px;">
+                    <img [src]="jugador.team" class="team_logo" alt="">
+                </div>
+                <img [src]="jugador.image" class="player_img" />
+            </div>
+        </div>
+        <div class="defensa">
+            <div *ngFor="let jugador of defensas" class="jugador">
+                <div class="insignias">
+                    <img [src]="jugador.position" class="position_logo" style="margin-top: 10px;">
+                    <img [src]="jugador.team" class="team_logo" alt="">
+                </div>
+                <img [src]="jugador.image" class="player_img" />
+            </div>
+        </div>
+        <div class="portero">
+            <div *ngFor="let jugador of porteros" class="jugador">
+                <div class="insignias">
+                    <img [src]="jugador.position" class="position_logo" style="margin-top: 10px;">
+                    <img [src]="jugador.team" class="team_logo" alt="">
+                </div>
+                <img [src]="jugador.image" class="player_img" />
+            </div>
+        </div>
+    </div>
+</div>
